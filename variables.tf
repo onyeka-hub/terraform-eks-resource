@@ -3,6 +3,6 @@ variable "aws_region" {
 }
 
 variable "cluster-name" {
-  default = "onyeka-terraform-eks"
+  default = "onyeka-terraform-eks-one-node"
   type    = string
 }

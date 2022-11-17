@@ -4,13 +4,13 @@ This is the full configuration from https://www.terraform.io/docs/providers/aws/
 
 See that guide for additional information.
 
-NOTE: This is a one node cluster which may only be good for dev workload.
+**NOTE**: This is a one node cluster which may only be good for dev workload.
 
-NOTE: This full configuration utilizes the [Terraform http provider](https://www.terraform.io/docs/providers/http/index.html) to call out to icanhazip.com to determine your local workstation external IP for easily configuring EC2 Security Group access to the Kubernetes servers. Feel free to replace this as necessary.
+**NOTE**: This full configuration utilizes the [Terraform http provider](https://www.terraform.io/docs/providers/http/index.html) to call out to icanhazip.com to determine your local workstation external IP for easily configuring EC2 Security Group access to the Kubernetes servers. Feel free to replace this as necessary.
 
 
 
-# terraform-eks-resource
+## terraform-eks-resource
 terraform aws_eks_cluster and aws_eks_node_group resources from terraform-provider-aws: https://github.com/onyeka-hub/terraform-provider-aws.git
 
 Note that the s3 bucket for the backend must be  created before running the terraform code
